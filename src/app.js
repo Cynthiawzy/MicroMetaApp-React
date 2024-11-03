@@ -2883,6 +2883,10 @@ export default class MicroMetaAppReact extends React.PureComponent {
 		document.body.removeChild(a);
 	}
 
+	handleSaveComponent(item) {
+		
+	}
+
 	handleSaveMicroscope(item) {
 		let validated = true;
 		if (!this.state.isMicroscopeValidated) {
